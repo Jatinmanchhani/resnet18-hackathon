@@ -1,2 +1,15 @@
-# resnet18-hackathon
-ResNet‑18 image classification project for the 3LC × MNNIT AI Hackathon — leveraging PyTorch, data augmentation, and semi‑supervised pseudo‑labeling to distinguish Chihuahua vs Muffin images.
+# ResNet‑18 Hackathon Project
+
+## 📌 Overview
+This repository contains my solution for the **3LC × MNNIT AI Hackathon**.  
+The challenge is a binary image classification task (**Chihuahua vs Muffin**) using **ResNet‑18** as the fixed architecture.  
+The focus is on **data‑centric improvements**: augmentation, semi‑supervised learning, and error analysis.
+
+---
+
+##  Dataset
+The dataset is divided into:
+- **Train (100 labeled images)** → Base training set.
+- **Validation (1,000 labeled images)** → Used for tuning hyperparameters and evaluation.
+- **Undefined (3,579 unlabeled images)** → Used for pseudo‑labeling to expand training data.
+- **Test (1,184 unlabeled images)** → Final predictions submitted in Kaggle CSV format.
