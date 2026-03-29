@@ -13,3 +13,5 @@ The dataset is divided into:
 - **Validation (1,000 labeled images)** → Used for tuning hyperparameters and evaluation.
 - **Undefined (3,579 unlabeled images)** → Used for pseudo‑labeling to expand training data.
 - **Test (1,184 unlabeled images)** → Final predictions submitted in Kaggle CSV format.
+- ## Dataset Setup
+Download the dataset from the 3LC × MNNIT AI Hackathon Kaggle page. 
